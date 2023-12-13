@@ -35,6 +35,7 @@
             }
         ],
         "scss/double-slash-comment-empty-line-before": null,
-        "scss/no-global-function-names": null
+        "scss/no-global-function-names": null,
+        "scss/at-import-partial-extension": "always"
     }
 }
