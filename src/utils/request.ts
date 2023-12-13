@@ -1,11 +1,3 @@
-/*
- * @Author: Lowkey
- * @Date: 2023-12-11 13:35:43
- * @LastEditors: Lowkey
- * @LastEditTime: 2023-12-12 16:34:26
- * @FilePath: \BK-Protal-App-VUE\src\utils\request.ts
- * @Description:
- */
 
 import { getBaseUrl } from '@/utils/env';
 import { Toast } from '@/utils/uniapi/prompt';

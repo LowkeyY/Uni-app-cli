@@ -1,11 +1,5 @@
-<!--
- * @Author: Lowkey
- * @Date: 2023-12-11 13:35:43
- * @LastEditors: Lowkey
- * @LastEditTime: 2023-12-12 16:11:52
- * @FilePath: \BK-Protal-App-VUE\src\pages\mine\index.vue
- * @Description: 
--->
+
+
 <script lang="ts" setup>
 import BasicButton from '@/components/BasicButton/BasicButton.vue';
 import AppProvider from '@/components/AppProvider/index.vue';
@@ -50,31 +44,31 @@ const handleLoginOut = () => {
 
 <style lang="scss" scoped>
 .container {
-    padding: 96rpx 24rpx;
-    .head-wrap {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        .avatar {
-            height: 120rpx;
-            width: 120rpx;
-            border: 2rpx solid #d1d5db;
-            border-radius: 120rpx;
-            overflow: hidden;
-            padding: 6rpx;
-            .img {
-                height: 100%;
-                width: 100%;
-            }
-        }
-        .desc {
-            font-size: 28rpx;
-            line-height: 120rpx;
-        }
+  padding: 96rpx 24rpx;
+  .head-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .avatar {
+      height: 120rpx;
+      width: 120rpx;
+      border: 2rpx solid #d1d5db;
+      border-radius: 120rpx;
+      overflow: hidden;
+      padding: 6rpx;
+      .img {
+        height: 100%;
+        width: 100%;
+      }
     }
-    .cell {
-        margin-top: 60rpx;
-        text-align: center;
+    .desc {
+      font-size: 28rpx;
+      line-height: 120rpx;
     }
+  }
+  .cell {
+    margin-top: 60rpx;
+    text-align: center;
+  }
 }
 </style>

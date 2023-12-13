@@ -1,11 +1,4 @@
-/*
- * @Author: Lowkey
- * @Date: 2023-12-11 13:35:43
- * @LastEditors: Lowkey
- * @LastEditTime: 2023-12-11 17:37:49
- * @FilePath: \BK-Protal-App-VUE\commitlint.config.cjs
- * @Description: 
- */
+
 // https://github.com/conventional-changelog/commitlint/#what-is-commitlint
 
 // 例：feat: 增加功能

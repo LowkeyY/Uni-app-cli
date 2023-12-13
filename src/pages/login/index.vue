@@ -1,3 +1,4 @@
+
 <!-- eslint-disable @typescript-eslint/no-unused-vars -->
 <script setup lang="ts">
 
@@ -57,48 +58,40 @@ const submit = (e: any) => {
 
 <style lang="scss" scoped>
 .container {
-    margin: 0 auto;
-    width: 80%;
-
-    .title {
-        padding: 320rpx 0 32rpx 0;
-        text-align: center;
-    }
-
-    .form-wrap {
-        padding: 20rpx 24rpx;
-        box-shadow: 16rpx 16rpx 30rpx #e5e7eb;
-
-        .form {
-            .form-item {
-                display: flex;
-                height: 88rpx;
-                border-bottom: 2rpx solid #dbeafe;
-                align-items: center;
-
-                .form-label {
-                    min-width: 96rpx;
-                }
-
-                .form-element {
-                    flex-grow: 1;
-                }
-            }
-
-            .submit-btn {
-                margin-top: 44rpx;
-                border: 4rpx solid #bfdbfe;
-                background-color: #60a5fa;
-                border-radius: 8rpx;
-                font-size: 28rpx;
-                color: #ffffff;
-
-                :hover {
-                    background-color: #3b82f6;
-                }
-            }
+  margin: 0 auto;
+  width: 80%;
+  .title {
+    padding: 320rpx 0 32rpx;
+    text-align: center;
+  }
+  .form-wrap {
+    padding: 20rpx 24rpx;
+    box-shadow: 16rpx 16rpx 30rpx #e5e7eb;
+    .form {
+      .form-item {
+        display: flex;
+        height: 88rpx;
+        border-bottom: 2rpx solid #dbeafe;
+        align-items: center;
+        .form-label {
+          min-width: 96rpx;
         }
+        .form-element {
+          flex-grow: 1;
+        }
+      }
+      .submit-btn {
+        margin-top: 44rpx;
+        border: 4rpx solid #bfdbfe;
+        background-color: #60a5fa;
+        border-radius: 8rpx;
+        font-size: 28rpx;
+        color: #fff;
+        :hover {
+          background-color: #3b82f6;
+        }
+      }
     }
+  }
 }
 </style>
-@/services/auth
